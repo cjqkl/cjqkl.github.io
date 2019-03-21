@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Hexo+GitHub搭建个人博客 | ciqkl的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="在一个月黑风高的夜晚，我遨游在B站的海洋，突然一位身怀绝技的up主（CodeSheep）出现在我的眼前，带来了一段如何搭建个人博客的视频，身为江湖小白的我顿时惊为天人，于是乎，闭门苦修，最终我也拥有了自己的个人博客。为了防止忘记神功修炼之方法，故特留此篇。 #一、本地搭建基于hexo的博客    1.下载node.js，并安装。    //在nodejs.org下载    2.查看一下node和n">
+  <meta name="description" content="在一个月黑风高的夜晚，我遨游在B站的海洋，突然一位身怀绝技的up主（CodeSheep）出现在我的眼前，带来了一段如何搭建个人博客的视频，身为江湖小白的我顿时惊为天人，于是乎，闭门苦修，最终我也拥有了自己的个人博客。为了防止忘记神功修炼之方法，故特留此篇,23333333。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo+GitHub搭建个人博客">
 <meta property="og:url" content="http://yoursite.com/2019/03/13/Hexo+GitHub搭建个人博客/index.html">
 <meta property="og:site_name" content="ciqkl的博客">
-<meta property="og:description" content="在一个月黑风高的夜晚，我遨游在B站的海洋，突然一位身怀绝技的up主（CodeSheep）出现在我的眼前，带来了一段如何搭建个人博客的视频，身为江湖小白的我顿时惊为天人，于是乎，闭门苦修，最终我也拥有了自己的个人博客。为了防止忘记神功修炼之方法，故特留此篇。 #一、本地搭建基于hexo的博客    1.下载node.js，并安装。    //在nodejs.org下载    2.查看一下node和n">
+<meta property="og:description" content="在一个月黑风高的夜晚，我遨游在B站的海洋，突然一位身怀绝技的up主（CodeSheep）出现在我的眼前，带来了一段如何搭建个人博客的视频，身为江湖小白的我顿时惊为天人，于是乎，闭门苦修，最终我也拥有了自己的个人博客。为了防止忘记神功修炼之方法，故特留此篇,23333333。">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-03-21T12:38:10.872Z">
+<meta property="og:updated_time" content="2019-03-21T13:43:52.836Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo+GitHub搭建个人博客">
-<meta name="twitter:description" content="在一个月黑风高的夜晚，我遨游在B站的海洋，突然一位身怀绝技的up主（CodeSheep）出现在我的眼前，带来了一段如何搭建个人博客的视频，身为江湖小白的我顿时惊为天人，于是乎，闭门苦修，最终我也拥有了自己的个人博客。为了防止忘记神功修炼之方法，故特留此篇。 #一、本地搭建基于hexo的博客    1.下载node.js，并安装。    //在nodejs.org下载    2.查看一下node和n">
+<meta name="twitter:description" content="在一个月黑风高的夜晚，我遨游在B站的海洋，突然一位身怀绝技的up主（CodeSheep）出现在我的眼前，带来了一段如何搭建个人博客的视频，身为江湖小白的我顿时惊为天人，于是乎，闭门苦修，最终我也拥有了自己的个人博客。为了防止忘记神功修炼之方法，故特留此篇,23333333。">
   
     <link rel="alternative" href="/atom.xml" title="ciqkl的博客" type="application/atom+xml">
   
@@ -164,11 +164,29 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <pre><code>在一个月黑风高的夜晚，我遨游在B站的海洋，突然一位身怀绝技的up主（CodeSheep）出现在我的眼前，带来了一段如何搭建个人博客的视频，身为江湖小白的我顿时惊为天人，于是乎，闭门苦修，最终我也拥有了自己的个人博客。为了防止忘记神功修炼之方法，故特留此篇。
-</code></pre><p>#一、本地搭建基于hexo的博客<br>    1.下载node.js，并安装。    //在nodejs.org下载<br>    2.查看一下node和npm是否安装成功。  //-v查看版本就行<br>    3.npm包管理器的镜像源太慢，用npm下载cnpm（淘宝的源），镜像指到淘宝。<br>      //npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>    4.用cnpm安装hexo-cli框架。<br>    5.建立一个Blog文件夹，用来安装Blog框架。<br>    6.在Blog文件夹里hexo init，安装Blog框架。可能会提示你没有git这个命令，去官网下<br>      一个。<br>    7.hexo start启动博客。<br>    8.用浏览器在本地启动博客。</p>
-<p>#二、将博客部署到github上公开<br>    1.在github上新开一个仓库。 //命名必须是username.github.io<br>    2.用cnpm安装hexo-deployer-git。  //cnpm install –save hexo-deployer-git<br>    3.设置_config.yml里的配置。<br>    //# Deployment<br>    //## Docs: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">https://hexo.io/docs/deployment.html</a><br>    //deploy:<br>    //type: git<br>    //repo: <a href="https://github.com/cjqkl/cjqkl.github.io.git" target="_blank" rel="noopener">https://github.com/cjqkl/cjqkl.github.io.git</a><br>    //branch: master<br>    4.将hexo部署到远端。 // hexo deploy<br>    5.刷新github仓库。 //可能会等个小1分钟，不要慌张</p>
-<p>#三、换个博客主题-yilia<br>    1.git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia<br>    //看到喜欢的博客主题直接clone<br>    2.设置_config.yml里的配置。 //theme</p>
-<p>———————————-啦啦啦~我是快乐的分割线———————————-</p>
+        <p><strong>在一个月黑风高的夜晚，我遨游在B站的海洋，突然一位身怀绝技的up主（CodeSheep）出现在我的眼前，带来了一段如何搭建个人博客的视频，身为江湖小白的我顿时惊为天人，于是乎，闭门苦修，最终我也拥有了自己的个人博客。为了防止忘记神功修炼之方法，故特留此篇,23333333。</strong><br><a id="more"></a></p>
+<h2 id="一、本地搭建基于hexo的博客"><a href="#一、本地搭建基于hexo的博客" class="headerlink" title="一、本地搭建基于hexo的博客"></a>一、本地搭建基于hexo的博客</h2><ol>
+<li>下载node.js，并安装。    //在nodejs.org下载</li>
+<li>查看一下node和npm是否安装成功。  //-v查看版本就行</li>
+<li>npm包管理器的镜像源太慢，用npm下载cnpm（淘宝的源），镜像指到淘宝。<br>//npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></li>
+<li>用cnpm安装hexo-cli框架。</li>
+<li>建立一个Blog文件夹，用来安装Blog框架。</li>
+<li>在Blog文件夹里hexo init，安装Blog框架。可能会提示你没有git这个命令，去官网下一个。</li>
+<li>hexo start启动博客。</li>
+<li>用浏览器在本地启动博客。</li>
+</ol>
+<h2 id="二、将博客部署到github上公开"><a href="#二、将博客部署到github上公开" class="headerlink" title="二、将博客部署到github上公开"></a>二、将博客部署到github上公开</h2><ol>
+<li>在github上新开一个仓库。 //命名必须是username.github.io</li>
+<li>用cnpm安装hexo-deployer-git。  //cnpm install –save hexo-deployer-git</li>
+<li>设置_config.yml里的配置。<br>  //# Deployment<br>  //## Docs: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">https://hexo.io/docs/deployment.html</a><br>  //deploy:<br>  //type: git<br>  //repo: <a href="https://github.com/cjqkl/cjqkl.github.io.git" target="_blank" rel="noopener">https://github.com/cjqkl/cjqkl.github.io.git</a><br>  //branch: master</li>
+<li>将hexo部署到远端。 // hexo deploy</li>
+<li>刷新github仓库。 //可能会等个小1分钟，不要慌张</li>
+</ol>
+<h2 id="三、换一个博客主题"><a href="#三、换一个博客主题" class="headerlink" title="三、换一个博客主题"></a>三、换一个博客主题</h2><ol>
+<li>git clone <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia<br>   //看到喜欢的博客主题直接clone</li>
+<li>设置_config.yml里的配置。 //theme</li>
+</ol>
+<p>———————————————-啦啦啦~我是快乐的分割线————————————————-</p>
 
       
 
